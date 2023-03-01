@@ -105,19 +105,45 @@ button:hover{
         padding: 10px 10px;
         text-align: center;
     }
+    button{
+        height: 50px;
+        width: 100px;
+        background-color: #e7e7e7;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 30px;
+    }
     .display{
         display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
         width: 70%;
-        height: 550px;
+        height: 460px;
         background:#000000d0;
-        margin-left: 20%;
+        margin-left: 15%;
         border-radius: 20px;
         padding: 10px;
         display: block;
         color: white;
+    }
+    .name{
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 25px;
+        font-family: monospace;
+    }
+    .humd, .desc, .wind, .temp{
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 16px;
+        font-family: monospace;
+        margin: 15px 10px;
     }
     .hide{
         display: none;
